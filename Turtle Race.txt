@@ -1,0 +1,68 @@
+from turtle import *
+from random import randint
+
+speed(10) 
+penup()
+goto(-140,140) 
+
+for step in range(15):
+ write(step, align= 'center') 
+ right(90) 
+ forward(10)
+ pendown()
+ forward(220) 
+ penup()
+ backward(230)
+ left(90) 
+ forward(20) 
+ada = Turtle()
+ada.color('red')
+ada.shape('turtle')
+
+ada.penup()
+ada.goto(-160,100) 
+ada.pendown() 
+
+bob = Turtle()
+bob.color('blue')
+bob.shape('turtle') 
+
+bob.penup () 
+bob.goto (-160, 70)
+bob.pendown() 
+
+cate = Turtle()
+cate.color('lime green')
+ckc.shape('turtle')
+
+cate.penup() 
+cate.goto (-160,40)
+cate.pendown() 
+
+doug = Turtle()  
+doug.color('yellow')
+doug.shape('turtle')
+
+doug.penup() 
+doug.goto(-160,10)
+dfd.pendown()
+
+ella = Turtle() 
+ella.color('purple')
+ella.shape('turtle')
+
+ella.penup() 
+ella.goto(-160,-30)
+ella.pendown()
+
+for turn in range (100): 
+ ada.forward(randint(1,5))
+ bob.forward(randint(1,5))
+ cate.forward(randint(1,5))
+ doug.forward(randint(1,5))
+ ella.forward(randint(1,5))
+ 
+
+
+
+
